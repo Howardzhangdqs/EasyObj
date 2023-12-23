@@ -1,4 +1,4 @@
-# EasyObj
+<div align="center"><h1>EasyDict</h1></div>
 
 <div align="center">
 
@@ -55,7 +55,7 @@ But since Python does not support using reserved words as method names, we have 
 | `Array.from()` | `EasyObj.BetterList._from()` |
 
 
-## Better Dict
+### Better Dict
 
 Because it is difficult to implement many of the features of JavaScript's Object in Python, we only implemented a part of them.
 

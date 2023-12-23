@@ -1,4 +1,4 @@
-# EasyObj
+<div align="center"><h1>EasyDict</h1></div>
 
 <div align="center">
 
@@ -55,7 +55,7 @@ print(betterlist.map(lambda x: x * 2))
 | `Array.from()` | `EasyObj.BetterList._from()` |
 
 
-## Better Dict
+### Better Dict
 
 因为 Python 中很难实现 JavaScript 的 Object 中的很多功能，所以我们就只实现了一部分。
 
