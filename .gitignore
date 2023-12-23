@@ -1,0 +1,11 @@
+__pycache__/
+
+/build/
+/dist/
+/EasyObj.*/
+
+.vscode/
+
+*test*.py
+*test*.ipynb
+.pypirc
