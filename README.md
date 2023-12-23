@@ -1,7 +1,9 @@
 # EasyObj
 
 <div align="center">
+
 English | [中文简体](./README_zh-CN.md)
+
 </div>
 
 `EasyObj` lets you manipulate objects as easily as in `JavaScript`.

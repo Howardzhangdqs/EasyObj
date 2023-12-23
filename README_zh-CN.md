@@ -1,7 +1,9 @@
 # EasyObj
 
 <div align="center">
+
 [English](./README.md) | 中文简体
+
 </div>
 
 `EasyObj` 让你操作对象就像在 `JavaScript` 里一样方便。
