@@ -2,7 +2,7 @@
 
 <div align="center">
 
-English | [中文简体](./README_zh-CN.md)
+[English](https://github.com/Howardzhangdqs/EasyObj/blob/master/README.md) | [中文简体](https://github.com/Howardzhangdqs/EasyObj/blob/master/README_zh-CN.md)
 
 </div>
 
