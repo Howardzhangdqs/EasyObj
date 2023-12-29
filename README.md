@@ -65,7 +65,7 @@ Each `BetterDict` object will perform an operation similar to `EasyDict`, conver
 from EasyObj import BetterDict
 
 betterdict = BetterDict({"very": "good"})
-# {'very': 'good'}
+# betterdict: BetterDict({'very': 'good'})
 
 betterdict.very
 # 'good'
@@ -84,16 +84,16 @@ DictUtils.keys(betterdict)
 
 ```python
 sealedDict = DictUtils.seal(betterdict)
-# {'very': 'good'}
+# sealedDict: SealedBetterDict({'very': 'good'})
 
 sealedDict.very = "bad"
-# {'very': 'bad'}
+# sealedDict: SealedBetterDict({'very': 'bad'})
 
 sealedDict.a = 1
 # AttributeError: SealedDict object does not support assigning new attributes
 
 frozenDict = DictUtils.freeze(betterdict)
-# {'very': 'good'}
+# sealedDict: FrozenBetterDict({'very': 'good'})
 
 sealedDict.very = "bad"
 # AttributeError: SealedDict object does not support assigning new attributes

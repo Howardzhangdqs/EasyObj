@@ -65,7 +65,7 @@ print(betterlist.map(lambda x: x * 2))
 from EasyObj import BetterDict
 
 betterdict = BetterDict({"非常": "好"})
-# {'非常': '好'}
+# betterdict: BetterDict({'非常': '好'})
 
 betterdict.非常
 # '好'
@@ -84,16 +84,16 @@ DictUtils.keys(betterdict)
 
 ```python
 sealedDict = DictUtils.seal(betterdict)
-# {'非常': '好'}
+# sealedDict: SealedBetterDict({'非常': '好'})
 
 sealedDict.非常 = "不好"
-# {'非常': '不好'}
+# sealedDict: SealedBetterDict({'非常': '不好'})
 
 sealedDict.a = 1
 # AttributeError: SealedDict object does not support assigning new attributes
 
 frozenDict = DictUtils.freeze(betterdict)
-# {'非常': '好'}
+# sealedDict: FrozenBetterDict({'非常': '好'})
 
 sealedDict.非常 = "不好"
 # AttributeError: SealedDict object does not support assigning new attributes
@@ -127,6 +127,11 @@ sealedDict.a = 1
 | `Object.prototype.toLocaleString()` |
 | `Object.prototype.toString()` |
 | `Object.prototype.valueOf()` |
+
+
+### BetterString
+
+在 [IPythonNotebook](./unittest/string.test.ipynb) 中了解更多
 
 ## License
 
