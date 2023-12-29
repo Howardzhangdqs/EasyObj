@@ -54,6 +54,8 @@ But since Python does not support using reserved words as method names, we have 
 | `Array.prototype.with()` | `EasyObj.BetterList._with()` |
 | `Array.from()` | `EasyObj.BetterList._from()` |
 
+Please refer to the detailed documentation: [list.test.ipynb](https://github.com/Howardzhangdqs/EasyObj/blob/master/unittest/list.test.ipynb)
+
 
 ### Better Dict
 
@@ -128,11 +130,16 @@ Due to Python syntax limitations, the following methods cannot be implemented:
 | `Object.prototype.toString()` |
 | `Object.prototype.valueOf()` |
 
+Please refer to the detailed documentation: [dict.test.ipynb](https://github.com/Howardzhangdqs/EasyObj/blob/master/unittest/dict.test.ipynb)
+
+
+### BetterString
+
+Because many methods in JavaScript's String are not very useful (mainly difficult to implement), we have only implemented a portion of them.
+
+Please refer to the detailed documentation: [string.test.ipynb](https://github.com/Howardzhangdqs/EasyObj/blob/master/unittest/string.test.ipynb)
+
+
 ## License
 
 GPLv3
-
-## TODO
-
-+ Implement BetterStr for better strings
-+ Implement more JavaScript methods

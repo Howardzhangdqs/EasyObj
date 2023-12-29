@@ -55,6 +55,9 @@ print(betterlist.map(lambda x: x * 2))
 | `Array.from()` | `EasyObj.BetterList._from()` |
 
 
+详细文档请见：[list.test_zh-CN.ipynb](https://github.com/Howardzhangdqs/EasyObj/blob/master/unittest/list.test_zh-CN.ipynb)
+
+
 ### Better Dict
 
 因为 Python 中很难实现 JavaScript 的 Object 中的很多功能，所以我们就只实现了一部分。
@@ -129,15 +132,15 @@ sealedDict.a = 1
 | `Object.prototype.valueOf()` |
 
 
+详细文档请见：[dict.test_zh-CN.ipynb](https://github.com/Howardzhangdqs/EasyObj/blob/master/unittest/dict.test_zh-CN.ipynb)
+
+
 ### BetterString
 
-在 [IPythonNotebook](./unittest/string.test.ipynb) 中了解更多
+因为 JavaScript 中很多 String 中的方法很鸡肋（主要是难实现），所以我们就只实现了一部分。
+
+详细文档请见：[string.test_zh-CN.ipynb](https://github.com/Howardzhangdqs/EasyObj/blob/master/unittest/string.test_zh-CN.ipynb)
 
 ## License
 
 GPLv3
-
-## TODO
-
-+ 实现 BetterStr 更好的字符串
-+ 实现更多 JavaScript 方法
